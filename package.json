@@ -1,0 +1,17 @@
+{
+  "name": "cypress-refresher",
+  "version": "1.0.0",
+  "description": "A cypress introduction and refresher",
+  "main": "app.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run --spec cypress/integration/examples/Test1Framework.js --headed"
+  },
+  "author": "Peter Nwokeji",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
